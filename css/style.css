@@ -1,0 +1,39 @@
+.name{
+    font-size: 4em;
+    font-weight: normal;
+    text-transform:uppercase;
+    font-stretch:ultra-expanded;
+}
+
+.designation{
+    font-weight: bold;
+    text-align: right;
+}
+
+.modern{
+    border: 2px solid #7d97ad; 
+    margin:auto; 
+    width:100%
+}
+
+.feature
+{
+    padding:20px;
+    width: 100%;
+}
+
+.greyish{
+    color: #7d97ad;
+}
+
+.imgcenter{
+    margin:0 auto;
+}
+.centers{
+    text-align: center;
+}
+
+.centerss{
+    text-align: center;
+    display:block;
+}
