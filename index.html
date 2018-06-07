@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
         <title>
+
             Build a Portfolio Site
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#db5945">
+
+
         <!-- Latest compiled and minified CSS for Bootstrap 3 -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
   <body>
       
           <header class="navbar ">
             <div class="container">
                 <div class="navbar-header">
-                     <a href="#"> <img src="images/logo.png" style="width: 200px; height: 150px;" class="navbar-brand img-responsive" alt="The featured image"/></a>
+                     <a href="#"> 
+                         <img src="images/logo.png" style="width: 200px; height: 150px;" class="navbar-brand img-responsive" 
+                            sizes="(max-width: 400px) 350vw, (min-width: 401px) 250vw"
+                            srcset="images/logo.png 400w, images/logo.png 800w"
+                            alt="great picture">
+                              
+                    </a>
+                    
                 </div>
                 <div class="pull-right">
-                    <p class="name">Jane Doette</p>
-                    <h4 class="designation">Front-End Ninja</h4>
+                    <p class="header_name">Jane Doette</p>
+                    <h4 class="header_designation">Front-End Ninja</h4>
                 </div>
             </div>
         </header>    
@@ -31,7 +45,9 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <img src="images/feature.png" class="img-responsive feature"  alt="The Featured image"/>                             
+                          <img src="images/feature.png"
+                                sizes="(max-width: 400px) 350vw, (min-width: 401px) 250vw"
+                                srcset="images/feature.png 400w, images/feature.png 800w"class="img-responsive feature"  alt="The Featured image"/>                             
                     </div>
                 </div>
                     <section>
@@ -44,22 +60,46 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="images/service1.png" class="img-responsive imgcenter" alt="First Service"/>
-                            <h1 class="centers"> APPIFY</h1>
-                            <a class="centerss" href="#">https://github.com/udacity/Appify/</a>
+                            <img src="images/service1.png" sizes="(max-width: 400px) 350vw, (min-width: 401px) 250vw"
+                            srcset="images/service1.png 400w, images/service1.png 800w"class="img-responsive center_img" alt="First Service"/>
+                            <h1 class="center_h1"> APPIFY</h1>
+                            <a class="center_a" href="#">https://github.com/udacity/Appify/</a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="images/service2.png" class="img-responsive imgcenter" alt="Second Service"/>
-                            <h1 class="centers"> SUNFLOWER</h1>
-                            <a class="centerss" href="#">https://github.com/udacity/Sunflower/</a>
+                            <img src="images/service2.png"  sizes="(max-width: 400px) 350vw, (min-width: 401px) 250vw"
+                            srcset="images/service2.png 400w, images/service2.png 800w" class="img-responsive center_img" alt="Second Service"/>
+                            <h1 class="center_h1"> SUNFLOWER</h1>
+                            <a class="center_a" href="#">https://github.com/udacity/Sunflower/</a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <img src="images/service3.png" class="img-responsive imgcenter" alt="Third Service"/>
-                            <h1 class="centers"> BOKEH</h1>
-                            <a class="centerss" href="#">https://github.com/udacity/Bokeh/</a>
+                            <img src="images/service3.png"  sizes="(max-width: 400px) 350vw, (min-width: 401px) 250vw"
+                            srcset="images/service3.png 400w, images/service3.png 800w"class="img-responsive center_img" alt="Third Service"/>
+                            <h1 class="center_h1"> BOKEH</h1>
+                            <a class="center_a" href="#">https://github.com/udacity/Bokeh/</a>
                         </div>
                     </div>
                 </section>
+                <footer class="footers">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div>
+                                     <ul id="listicon" >
+                                        <li><a href="#"><i class="fa fa-2x fa-twitter footers_twitt" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-2x fa-facebook footers_face" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-2x fa-linkedin footers_linked" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <div>
+                                    <p class="footers_text">Copyright 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>    
   </body>
 </html>
