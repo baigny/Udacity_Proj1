@@ -1,11 +1,11 @@
-.name{
+.header_name{
     font-size: 4em;
     font-weight: normal;
     text-transform:uppercase;
     font-stretch:ultra-expanded;
 }
 
-.designation{
+.header_designation{
     font-weight: bold;
     text-align: right;
 }
@@ -26,14 +26,56 @@
     color: #7d97ad;
 }
 
-.imgcenter{
+.center_img{
     margin:0 auto;
 }
-.centers{
+.center_h1{
     text-align: center;
 }
 
-.centerss{
+.center_a{
     text-align: center;
     display:block;
+}
+
+ul#listicon li{
+    display: inline;
+    list-style-type: none;
+}
+
+.footers{
+    background-color:black;
+    padding: 10px;
+}
+.fa {
+
+  border-radius:50%;
+  border:2px solid white;
+  padding: 20px; 
+  text-align: center;
+    margin:4px 7px;
+  text-decoration: none;
+
+}
+
+.footers_face {
+  background-color: darkblue;
+  color: white;
+}
+.footers_twitt{
+    background-color: lightblue;
+    color:white;
+}
+.footers_linked{
+    
+    background-color:dodgerblue;
+    color:white;
+    
+}
+
+.footers_text{
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px;
 }
